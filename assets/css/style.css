@@ -45,7 +45,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&amp;display=swap");
 :root {
-  --color-primary: #FF6600;
+  --color-primary: #02c1bc;
   --color-secondary: #0C0A0A;
   --color-body: #6E777D;
   --color-heading-1: #0C0A0A;
@@ -15536,7 +15536,7 @@ header.header-one .header-top-wrapper .right ul li.last::after {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 444px;
+  gap: 340px;
   border-bottom: 1px solid #E9E9E9;
 }
 @media screen and (max-width: 1820px) {
@@ -19755,7 +19755,7 @@ edit .quantity-edit button {
 
 .rts-banner-area-two {
   position: relative;
-  max-width: 1920px;
+  max-width: 100%;
   margin: auto;
 }
 .rts-banner-area-two .banner-image-right {
@@ -21842,7 +21842,7 @@ edit .quantity-edit button {
   width: 100%;
   height: 100%;
   bottom: -7px;
-  background-image: url(../images/project/icon/02.png);
+  background-image: url(../images/project/icon/logo1.jpeg);
   z-index: 0;
   opacity: 0;
   transition: 0.3s;
@@ -29704,7 +29704,7 @@ form.appoinment-form select option {
 }
 
 .bg_pricing {
-  background-image: url(../images/pricing/01.png);
+  background-image: url(../images/pricing/logo2.jpeg);
   background-repeat: no-repeat;
   background-position: top, center;
 }
@@ -29936,7 +29936,7 @@ form.appoinment-form select option {
   bottom: 0;
   top: 70%;
   content: "";
-  background-image: url(../images/testimonials/logo/01.png);
+  background-image: url(../images/testimonials/logo/logo2.jpeg);
   height: 150px;
   width: 150px;
   background-repeat: no-repeat;
@@ -33038,7 +33038,7 @@ form.appoinment-form select option {
   content: "";
   left: 0;
   bottom: 0;
-  background-image: url(../images/footer/icon/01.png);
+  background-image: url(../images/footer/icon/logo2.jpeg);
   width: 61px;
   height: 2px;
 }
@@ -33390,36 +33390,59 @@ form.appoinment-form select option {
   margin-bottom: 10px;
 }
 
+.single-footer-wized-two.logo-area {
+  text-align: center;
+}
+
 .single-footer-wized-two.logo-area a img {
   margin-bottom: 30px;
 }
+
 .single-footer-wized-two.logo-area .disc-f {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   width: 90%;
   color: #77787A;
+  margin: 0 auto; /* Centering the text */
 }
+
+.rts-social-wrapper-three ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.rts-social-wrapper-three ul li {
+  display: inline-block;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .single-footer-wized-two.logo-area .disc-f {
-    width: 51%;
-  }
-}
-@media only screen and (max-width: 767px) {
   .single-footer-wized-two.logo-area .disc-f {
     width: 61%;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .single-footer-wized-two.logo-area .disc-f {
+    width: 80%; /* Adjusted to ensure better readability on smaller screens */
+  }
+}
+
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .single-footer-wized-two.logo-area .disc-f {
     width: 80%;
   }
 }
+
 @media only screen and (max-width: 575px) {
   .single-footer-wized-two.logo-area .disc-f {
-    width: 74%;
+    width: 90%; /* Increased for very small screens */
   }
 }
+
 .single-footer-wized-two.pages .title {
   font-weight: 700;
   font-size: 18px;
