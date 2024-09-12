@@ -18054,7 +18054,7 @@ edit .quantity-edit button {
 .thumbnail-area-about img.small {
   position: absolute;
   right: 0;
-  top: 40px;
+  top: -40px;
   animation: jump-2 5s linear infinite;
 }
 @media only screen and (max-width: 1199px) {
@@ -18132,8 +18132,8 @@ edit .quantity-edit button {
 }
 .appoinment-m-thumb .inner-wrapper {
   position: absolute;
-  bottom: 80px;
-  padding: 35px 50px 35px 40px;
+  bottom: 0px;
+  padding: 35px 30px 35px 40px;
   background: var(--color-primary);
   display: flex;
   align-items: center;
@@ -23477,7 +23477,10 @@ body.index-nine .single-case-wrapper {
 }
 @media (max-width: 1500px) {
   .bg-journey .thumbnail-area .happy-clients-area-start {
-    margin-left: 0;
+    margin-left: 0px;
+    margin-top: -18px;
+    
+  height: 5%;
   }
 }
 .bg-journey .thumbnail-area .happy-clients-area-start::after {
@@ -30566,6 +30569,9 @@ form.appoinment-form select option {
     gap: 30px;
   }
 }
+/* // */
+/* // */
+
 .feature-wrapper-full-wrap .single-wrapper {
   display: flex;
   align-items: center;
