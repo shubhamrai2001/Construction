@@ -18127,10 +18127,10 @@ edit .quantity-edit button {
   margin-bottom: 5px;
 }
 
-.appoinment-m-thumb {
+.Appointment-m-thumb {
   position: relative;
 }
-.appoinment-m-thumb .inner-wrapper {
+.Appointment-m-thumb .inner-wrapper {
   position: absolute;
   bottom: 0px;
   padding: 35px 30px 35px 40px;
@@ -18141,13 +18141,13 @@ edit .quantity-edit button {
   animation: jump-2 5s linear infinite;
 }
 @media only screen and (max-width: 479px) {
-  .appoinment-m-thumb .inner-wrapper {
+  .Appointment-m-thumb .inner-wrapper {
     padding: 7px;
     padding: 7px;
     margin-left: 0;
   }
 }
-.appoinment-m-thumb .inner-wrapper h6 {
+.Appointment-m-thumb .inner-wrapper h6 {
   font-weight: 700;
   font-size: 60px;
   line-height: 60px;
@@ -18155,11 +18155,11 @@ edit .quantity-edit button {
   margin-right: 20px;
 }
 @media only screen and (max-width: 479px) {
-  .appoinment-m-thumb .inner-wrapper h6 {
+  .Appointment-m-thumb .inner-wrapper h6 {
     font-size: 40px;
   }
 }
-.appoinment-m-thumb .inner-wrapper span {
+.Appointment-m-thumb .inner-wrapper span {
   color: #fff;
   font-weight: 400;
   font-size: 20px;
@@ -18167,7 +18167,7 @@ edit .quantity-edit button {
   margin-top: -10px;
 }
 
-.rts-make-an-appoinemtn-area.home-seven .appoinment-m-thumb .inner-wrapper {
+.rts-make-an-appoinemtn-area.home-seven .Appointment-m-thumb .inner-wrapper {
   position: absolute;
   bottom: 40px;
   left: -160px;
@@ -18176,60 +18176,60 @@ edit .quantity-edit button {
   margin-left: 0;
 }
 @media (max-width: 768px) {
-  .rts-make-an-appoinemtn-area.home-seven .appoinment-m-thumb .inner-wrapper {
+  .rts-make-an-appoinemtn-area.home-seven .Appointment-m-thumb .inner-wrapper {
     bottom: 0;
     left: 0;
   }
 }
 @media (max-width: 500px) {
-  .rts-make-an-appoinemtn-area.home-seven .appoinment-m-thumb .inner-wrapper {
+  .rts-make-an-appoinemtn-area.home-seven .Appointment-m-thumb .inner-wrapper {
     display: none;
   }
 }
-.rts-make-an-appoinemtn-area.home-seven .appoinment-inner-content-wrapper span {
+.rts-make-an-appoinemtn-area.home-seven .Appointment-inner-content-wrapper span {
   color: var(--color-primary);
   font-size: 16px;
   line-height: 24px;
   font-weight: 600;
   text-transform: uppercase;
 }
-.rts-make-an-appoinemtn-area.home-seven .appoinment-inner-content-wrapper .title {
+.rts-make-an-appoinemtn-area.home-seven .Appointment-inner-content-wrapper .title {
   margin-top: 10px;
 }
-.rts-make-an-appoinemtn-area.home-seven .appoinment-inner-content-wrapper form .input-wrapper .single-input {
+.rts-make-an-appoinemtn-area.home-seven .Appointment-inner-content-wrapper form .input-wrapper .single-input {
   width: 100%;
 }
-.rts-make-an-appoinemtn-area.home-seven .appoinment-inner-content-wrapper form .input-wrapper .single-input input {
+.rts-make-an-appoinemtn-area.home-seven .Appointment-inner-content-wrapper form .input-wrapper .single-input input {
   height: 60px;
   background: #FFFFFF;
   display: block;
   padding: 0 30px;
   border: 1px solid transparent;
 }
-.rts-make-an-appoinemtn-area.home-seven .appoinment-inner-content-wrapper form .input-wrapper .single-input input:focus {
+.rts-make-an-appoinemtn-area.home-seven .Appointment-inner-content-wrapper form .input-wrapper .single-input input:focus {
   border: 1px solid var(--color-primary);
 }
-.rts-make-an-appoinemtn-area.home-seven .appoinment-inner-content-wrapper form .input-half-wrapper .single-input {
+.rts-make-an-appoinemtn-area.home-seven .Appointment-inner-content-wrapper form .input-half-wrapper .single-input {
   width: 50%;
 }
-.rts-make-an-appoinemtn-area.home-seven .appoinment-inner-content-wrapper form .input-half-wrapper .single-input select {
+.rts-make-an-appoinemtn-area.home-seven .Appointment-inner-content-wrapper form .input-half-wrapper .single-input select {
   margin-top: 0;
 }
-.rts-make-an-appoinemtn-area.home-seven .appoinment-inner-content-wrapper form textarea {
+.rts-make-an-appoinemtn-area.home-seven .Appointment-inner-content-wrapper form textarea {
   background: #FFFFFF;
   margin-bottom: 30px;
   padding: 15px;
   height: 150px;
 }
-.rts-make-an-appoinemtn-area.home-seven .appoinment-inner-content-wrapper form textarea:focus {
+.rts-make-an-appoinemtn-area.home-seven .Appointment-inner-content-wrapper form textarea:focus {
   border: 1px solid var(--color-primary);
 }
-.rts-make-an-appoinemtn-area.home-seven .appoinment-inner-content-wrapper form .rts-btn.btn-primary {
+.rts-make-an-appoinemtn-area.home-seven .Appointment-inner-content-wrapper form .rts-btn.btn-primary {
   display: flex;
   align-items: center;
   padding: 10px 15px 10px 25px;
 }
-.rts-make-an-appoinemtn-area.home-seven .appoinment-inner-content-wrapper form .rts-btn.btn-primary i {
+.rts-make-an-appoinemtn-area.home-seven .Appointment-inner-content-wrapper form .rts-btn.btn-primary i {
   height: 40px;
   width: 40px;
   display: flex;
@@ -25122,15 +25122,15 @@ body.index-nine .single-case-wrapper {
   background: #F7F7F7;
 }
 
-.bg-appoinment-short {
-  background-image: url(../images/appoinment/03.jpg) !important;
+.bg-Appointment-short {
+  background-image: url(../images/Appointment/03.jpg) !important;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
   overflow: hidden;
   background-size: cover;
 }
-.bg-appoinment-short .single-details-appoinment {
+.bg-Appointment-short .single-details-Appointment {
   position: absolute;
   right: 25%;
   width: 450px;
@@ -25145,7 +25145,7 @@ body.index-nine .single-case-wrapper {
   padding: 35px;
 }
 @media only screen and (max-width: 1199px) {
-  .bg-appoinment-short .single-details-appoinment {
+  .bg-Appointment-short .single-details-Appointment {
     padding: 20px;
     position: absolute;
     right: 20%;
@@ -25161,38 +25161,38 @@ body.index-nine .single-case-wrapper {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .bg-appoinment-short .single-details-appoinment {
+  .bg-Appointment-short .single-details-Appointment {
     display: none;
   }
 }
 @media only screen and (max-width: 767px) {
-  .bg-appoinment-short .single-details-appoinment {
+  .bg-Appointment-short .single-details-Appointment {
     display: none;
   }
 }
-.bg-appoinment-short .single-details-appoinment .title {
+.bg-Appointment-short .single-details-Appointment .title {
   color: #fff;
   font-size: 48px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 @media only screen and (max-width: 1199px) {
-  .bg-appoinment-short .single-details-appoinment .title {
+  .bg-Appointment-short .single-details-Appointment .title {
     color: #fff;
     font-size: 33px;
     font-weight: 600;
     margin-bottom: 3px;
   }
 }
-.bg-appoinment-short .single-details-appoinment p {
+.bg-Appointment-short .single-details-Appointment p {
   margin-bottom: 20px;
   color: #fff;
 }
-.bg-appoinment-short .single-details-appoinment p.disc {
+.bg-Appointment-short .single-details-Appointment p.disc {
   color: #fff;
   margin-bottom: 0;
 }
-.bg-appoinment-short .single-details-appoinment.small {
+.bg-Appointment-short .single-details-Appointment.small {
   top: -10%;
   right: 5%;
   background: #101010 !important;
@@ -25200,7 +25200,7 @@ body.index-nine .single-case-wrapper {
   height: 350px;
 }
 @media only screen and (max-width: 1199px) {
-  .bg-appoinment-short .single-details-appoinment.small {
+  .bg-Appointment-short .single-details-Appointment.small {
     top: -2%;
     right: 5%;
     background: #101010 !important;
@@ -25208,18 +25208,18 @@ body.index-nine .single-case-wrapper {
     height: 250px;
   }
 }
-.bg-appoinment-short .single-details-appoinment.small p.disc {
+.bg-Appointment-short .single-details-Appointment.small p.disc {
   font-size: 12px;
 }
-.bg-appoinment-short .single-details-appoinment.small p.disc br {
+.bg-Appointment-short .single-details-Appointment.small p.disc br {
   display: none;
 }
 
-.appoinment-inner-main-wrapper .pre {
+.Appointment-inner-main-wrapper .pre {
   color: var(--color-primary);
   text-transform: uppercase;
 }
-.appoinment-inner-main-wrapper .title {
+.Appointment-inner-main-wrapper .title {
   color: #fff;
   font-weight: 600;
   font-size: 48px;
@@ -25227,12 +25227,12 @@ body.index-nine .single-case-wrapper {
   margin-top: 5px;
 }
 @media only screen and (max-width: 479px) {
-  .appoinment-inner-main-wrapper .title {
+  .Appointment-inner-main-wrapper .title {
     font-size: 26px;
     line-height: 43px;
   }
 }
-.appoinment-inner-main-wrapper a.rts-btn {
+.Appointment-inner-main-wrapper a.rts-btn {
   border: 2px solid #FFFFFF;
   color: #fff;
   margin-top: 40px;
@@ -26799,33 +26799,33 @@ body.index-nine .single-case-wrapper {
   color: var(--color-primary);
 }
 
-.bg-appoinment {
+.bg-Appointment {
   background: #F5F5F5;
 }
-.bg-appoinment .thumbnail img {
+.bg-Appointment .thumbnail img {
   width: 100%;
 }
 
-.appoinment-inner-content-wrapper {
+.Appointment-inner-content-wrapper {
   padding: 40px 60px 40px 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appoinment-inner-content-wrapper {
+  .Appointment-inner-content-wrapper {
     padding: 30px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .appoinment-inner-content-wrapper {
+  .Appointment-inner-content-wrapper {
     padding: 15px;
   }
 }
 @media (max-width: 991px) {
-  .appoinment-inner-content-wrapper {
+  .Appointment-inner-content-wrapper {
     margin-top: 30px;
     padding-left: 0;
   }
 }
-.appoinment-inner-content-wrapper.career span.pre {
+.Appointment-inner-content-wrapper.career span.pre {
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -26835,55 +26835,55 @@ body.index-nine .single-case-wrapper {
   color: #0C0A0A;
 }
 
-form.appoinment-form .input-half-wrapper {
+form.Appointment-form .input-half-wrapper {
   display: flex;
   align-items: center;
   width: 100%;
   gap: 26px;
 }
-form.appoinment-form .input-half-wrapper .single-input {
+form.Appointment-form .input-half-wrapper .single-input {
   display: block;
   width: 50%;
 }
-form.appoinment-form .input-half-wrapper .single-input.phone {
+form.Appointment-form .input-half-wrapper .single-input.phone {
   margin-top: 25px;
 }
-form.appoinment-form .input-half-wrapper .single-input.file {
+form.Appointment-form .input-half-wrapper .single-input.file {
   width: 100%;
 }
-form.appoinment-form .input-half-wrapper .single-input.file input {
+form.Appointment-form .input-half-wrapper .single-input.file input {
   height: unset;
   padding: 20px;
 }
-form.appoinment-form .input-half-wrapper .single-input input {
+form.Appointment-form .input-half-wrapper .single-input input {
   height: 60px;
   background: #FFFFFF;
   display: block;
   padding: 0 30px;
   border: 1px solid transparent;
 }
-form.appoinment-form .input-half-wrapper .single-input input:focus {
+form.Appointment-form .input-half-wrapper .single-input input:focus {
   border: 1px solid var(--color-primary);
 }
-form.appoinment-form .form-control {
+form.Appointment-form .form-control {
   background: #ffffff;
   border: none;
   height: 120px;
   padding: 20px;
   font-size: 16px;
 }
-form.appoinment-form .form-control:focus {
+form.Appointment-form .form-control:focus {
   border: none;
   box-shadow: none;
 }
-form.appoinment-form select {
+form.Appointment-form select {
   height: 60px;
   background: #FFFFFF;
   display: block;
   margin-top: 25px;
   padding: 0 30px;
 }
-form.appoinment-form select option {
+form.Appointment-form select option {
   border-radius: 0;
   padding: 5px 6px;
 }
@@ -26894,26 +26894,26 @@ form.appoinment-form select option {
   }
 }
 @media (max-width: 1200px) {
-  .rts-make-an-appoinemtn-area.career .appoinment-inner-content-wrapper {
+  .rts-make-an-appoinemtn-area.career .Appointment-inner-content-wrapper {
     padding: 30px;
   }
 }
 @media (max-width: 576px) {
-  .rts-make-an-appoinemtn-area.career .appoinment-inner-content-wrapper form.appoinment-form .input-half-wrapper {
+  .rts-make-an-appoinemtn-area.career .Appointment-inner-content-wrapper form.Appointment-form .input-half-wrapper {
     display: block;
   }
-  .rts-make-an-appoinemtn-area.career .appoinment-inner-content-wrapper form.appoinment-form .input-half-wrapper .single-input {
+  .rts-make-an-appoinemtn-area.career .Appointment-inner-content-wrapper form.Appointment-form .input-half-wrapper .single-input {
     width: 100%;
   }
-  .rts-make-an-appoinemtn-area.career .appoinment-inner-content-wrapper form.appoinment-form .input-half-wrapper .single-input:first-child {
+  .rts-make-an-appoinemtn-area.career .Appointment-inner-content-wrapper form.Appointment-form .input-half-wrapper .single-input:first-child {
     margin-bottom: 25px;
   }
 }
-.rts-make-an-appoinemtn-area.career .appoinment-inner-content-wrapper form.appoinment-form .input-half-wrapper select {
+.rts-make-an-appoinemtn-area.career .Appointment-inner-content-wrapper form.Appointment-form .input-half-wrapper select {
   width: 50%;
 }
 @media (max-width: 576px) {
-  .rts-make-an-appoinemtn-area.career .appoinment-inner-content-wrapper form.appoinment-form .input-half-wrapper select {
+  .rts-make-an-appoinemtn-area.career .Appointment-inner-content-wrapper form.Appointment-form .input-half-wrapper select {
     width: 100%;
   }
 }
@@ -31857,14 +31857,14 @@ form.appoinment-form select option {
   text-transform: capitalize;
 }
 
-.appoinment-area-nine-left .title-left-wrapper-home-nine {
+.Appointment-area-nine-left .title-left-wrapper-home-nine {
   padding-bottom: 45px;
   border-bottom: 5px solid #242424;
 }
-.appoinment-area-nine-left .title-left-wrapper-home-nine .title {
+.Appointment-area-nine-left .title-left-wrapper-home-nine .title {
   color: #fff;
 }
-.appoinment-area-nine-left .inner-content-area {
+.Appointment-area-nine-left .inner-content-area {
   padding-top: 80px;
   display: flex;
   align-items: center;
@@ -31874,16 +31874,16 @@ form.appoinment-form select option {
   gap: 25px;
 }
 @media only screen and (max-width: 575px) {
-  .appoinment-area-nine-left .inner-content-area {
+  .Appointment-area-nine-left .inner-content-area {
     flex-direction: column;
     align-items: flex-start;
     margin-left: 30px;
   }
 }
-.appoinment-area-nine-left .inner-content-area .single-inner-content {
+.Appointment-area-nine-left .inner-content-area .single-inner-content {
   position: relative;
 }
-.appoinment-area-nine-left .inner-content-area .single-inner-content::after {
+.Appointment-area-nine-left .inner-content-area .single-inner-content::after {
   position: absolute;
   content: "";
   right: 30px;
@@ -31893,21 +31893,21 @@ form.appoinment-form select option {
   background: #242424;
 }
 @media only screen and (max-width: 767px) {
-  .appoinment-area-nine-left .inner-content-area .single-inner-content::after {
+  .Appointment-area-nine-left .inner-content-area .single-inner-content::after {
     display: none;
   }
 }
-.appoinment-area-nine-left .inner-content-area .single-inner-content.border-n::after {
+.Appointment-area-nine-left .inner-content-area .single-inner-content.border-n::after {
   display: none;
 }
-.appoinment-area-nine-left .inner-content-area .single-inner-content .location-area {
+.Appointment-area-nine-left .inner-content-area .single-inner-content .location-area {
   display: flex;
   align-items: center;
 }
-.appoinment-area-nine-left .inner-content-area .single-inner-content .location-area h5 {
+.Appointment-area-nine-left .inner-content-area .single-inner-content .location-area h5 {
   margin: 0;
 }
-.appoinment-area-nine-left .inner-content-area .single-inner-content .location-area i {
+.Appointment-area-nine-left .inner-content-area .single-inner-content .location-area i {
   width: 100px;
   height: 100px;
   background: #242424;
@@ -31918,27 +31918,27 @@ form.appoinment-form select option {
   justify-content: center;
   border-radius: 50%;
 }
-.appoinment-area-nine-left .inner-content-area .single-inner-content .location-area h5 {
+.Appointment-area-nine-left .inner-content-area .single-inner-content .location-area h5 {
   font-size: 60px;
   color: rgba(255, 255, 255, 0.05);
   margin-left: 28px;
 }
-.appoinment-area-nine-left .inner-content-area .single-inner-content .location-disc {
+.Appointment-area-nine-left .inner-content-area .single-inner-content .location-disc {
   margin-top: 30px;
 }
-.appoinment-area-nine-left .inner-content-area .single-inner-content .location-disc h6 {
+.Appointment-area-nine-left .inner-content-area .single-inner-content .location-disc h6 {
   font-weight: 700;
   font-size: 24px;
   line-height: 37px;
   color: #FFFFFF;
 }
-.appoinment-area-nine-left .inner-content-area .single-inner-content .location-disc p {
+.Appointment-area-nine-left .inner-content-area .single-inner-content .location-disc p {
   width: 70%;
 }
-.appoinment-area-nine-left .inner-content-area .single-inner-content .contact-area {
+.Appointment-area-nine-left .inner-content-area .single-inner-content .contact-area {
   margin-top: 30px;
 }
-.appoinment-area-nine-left .inner-content-area .single-inner-content .contact-area a {
+.Appointment-area-nine-left .inner-content-area .single-inner-content .contact-area a {
   display: block;
   font-weight: 600;
   font-size: 16px;
@@ -31948,13 +31948,13 @@ form.appoinment-form select option {
   margin-top: 5px;
   transition: 0.3s;
 }
-.appoinment-area-nine-left .inner-content-area .single-inner-content .contact-area a:hover {
+.Appointment-area-nine-left .inner-content-area .single-inner-content .contact-area a:hover {
   color: var(--color-primary);
 }
-.appoinment-area-nine-left .inner-content-area .single-inner-content .icon-location {
+.Appointment-area-nine-left .inner-content-area .single-inner-content .icon-location {
   margin-top: 30px;
 }
-.appoinment-area-nine-left .inner-content-area .single-inner-content .icon-location i {
+.Appointment-area-nine-left .inner-content-area .single-inner-content .icon-location i {
   width: 45px;
   height: 45px;
   border: 1px solid #303030;
@@ -31964,54 +31964,54 @@ form.appoinment-form select option {
   border-radius: 50%;
 }
 
-.appoinment-area-nine-right {
+.Appointment-area-nine-right {
   background: #fff;
   padding: 100px;
   margin-right: -130px;
 }
 @media only screen and (max-width: 1199px) {
-  .appoinment-area-nine-right {
+  .Appointment-area-nine-right {
     padding: 50px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appoinment-area-nine-right {
+  .Appointment-area-nine-right {
     margin-right: 0;
   }
 }
 @media only screen and (max-width: 767px) {
-  .appoinment-area-nine-right {
+  .Appointment-area-nine-right {
     margin-right: 0;
   }
 }
 @media only screen and (max-width: 479px) {
-  .appoinment-area-nine-right {
+  .Appointment-area-nine-right {
     margin-right: 0;
     padding: 25px;
   }
 }
 
-.appoinment-form-nine {
+.Appointment-form-nine {
   margin-top: 30px;
 }
-.appoinment-form-nine input {
+.Appointment-form-nine input {
   background: #F9F9F9;
   height: 60px;
   margin-bottom: 15px;
   border: 1px solid transparent;
   padding: 5px 15px;
 }
-.appoinment-form-nine input:focus {
+.Appointment-form-nine input:focus {
   border: 1px solid var(--color-primary);
 }
-.appoinment-form-nine textarea {
+.Appointment-form-nine textarea {
   padding: 15px;
   height: 165px;
   background: #F9F9F9;
   margin-bottom: 35px;
   border: 1px solid transparent;
 }
-.appoinment-form-nine textarea:focus {
+.Appointment-form-nine textarea:focus {
   border: 1px solid var(--color-primary);
 }
 
@@ -33776,4 +33776,3 @@ form.appoinment-form select option {
   padding: 30px 20px;
   height: 100%;
 }
-/*# sourceMappingURL=../maps/style.css.map */
