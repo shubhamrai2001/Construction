@@ -19872,9 +19872,9 @@ edit .quantity-edit button {
   }
 }
 
-/* .bg-breadcrumb {
+.bg-breadcrumb {
   background-image: url(../images/bg/breadcrumb.jpg);
-} */
+}
 
 .breadcrumb-inner .title {
   font-weight: 600;
@@ -20063,6 +20063,7 @@ edit .quantity-edit button {
     line-height: 36px;
   }
 }
+
 
 .banner-bg-five {
   background-image: url(../images/bg/bg-image-6.jpg);
