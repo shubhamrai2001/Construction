@@ -113,7 +113,7 @@
                                                     <li><a href="service-2.html">Portable Cabin</a></li>
                                                     <li><a href="service-3.html">Marble Work</a></li>
                                                     <li><a href="service-4.html">Bronze Statues</a></li>
-                                                    <li><a href="service-5.html">Granden Refurbishment</a></li>  
+                                                    <li><a href="service-5.html">Garden Refurbishment</a></li>  
                                                     <li><a href="service-6.html">Victorian Benches </a></li>
                                                         
                                                 </ul>
@@ -212,7 +212,7 @@
                             <li><a class="mobile-menu-link" href="service-2.html">Portable Cabin</a></li>
                             <li><a class="mobile-menu-link" href="service-3.html">Marble Work</a></li>
                             <li><a class="mobile-menu-link" href="service-4.html">Bronze Statues</a></li>
-                            <li><a class="mobile-menu-link" href="service-5.html">Granden Refurbishment</a></li>
+                            <li><a class="mobile-menu-link" href="service-5.html">Garden Refurbishment</a></li>
                             <li><a class="mobile-menu-link" href="service-6.html">Victorian Benches </a>
                             </li>
 
@@ -262,16 +262,17 @@
 
     <!-- Bread-Crumb style two -->
     <!-- rts breadcrumba area start -->
-    <div class="rts-bread-crumb-area ptb--150 ptb_sm--100 bg-breadcrumb bg_image">
+    <div class="rts-bread-crumb-area ptb--150 ptb_sm--100 bg-breadcrumb bg_image"
+        style="background-image: url('assets/images/service/Serives6.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <!-- bread crumb inner wrapper -->
                     <div class="breadcrumb-inner text-center">
-                        <h1 class="title">Victorian Benches </h1>
+                        <h1 class="title text-white">Victorian Benches </h1>
                         <div class="meta">
-                            <a href="index.html" class="prev">Home /</a>
-                            <a href="#" class="next">Victorian Benches </a>
+                            <a href="index.html" class="prev text-white">Home /</a>
+                            <a href="#" class="next text-white">Victorian Benches </a>
                         </div>
                     </div>
                     <!-- bread crumb inner wrapper end -->
@@ -325,8 +326,27 @@
                 <!-- rts- blog wizered end area -->
                 <div class="col-xl-8 col-md-12 col-sm-12 col-12 plr_sm--20"> <!-- service details left area start -->
                     <div class="service-detials-step-1">
-                        <div class="thumbnail">
+                        <!-- <div class="thumbnail">
                             <img src="assets/images/service/Serives6.jpeg" alt="Victorian Benches">
+                        </div> -->
+                        <div class="rts-bread-crumb-area ptb--150 ptb_sm--100 bg-breadcrumb position-relative">
+                            <!-- Carousel Wrapper -->
+                            <div class="background-carousel">
+                                <div class="carousel-slide"
+                                    style="background-image: url('./assets/images/gallery/Benches/Bench1.jpeg');">
+                                </div>
+                                <div class="carousel-slide"
+                                    style="background-image: url('./assets/images/gallery/Benches/Bench2.jpeg');">
+                                </div>
+                                <div class="carousel-slide"
+                                style="background-image: url('./assets/images/gallery/Benches/Bench3.jpeg');">
+                            </div>
+
+                            </div>
+                                 <!-- Add Carousel Controls -->
+                        <button id="prevSlide" class="control left-control">❮</button>
+                        <button id="nextSlide" class="control right-control">❯</button>
+                   
                         </div>
                         <h4 class="title">Victorian Benches</h4>
                         <p class="disc">Our custom-designed Victorian benches combine elegance and comfort, perfect for any garden or outdoor space. Crafted with precision, these benches bring a timeless aesthetic while enhancing the overall ambiance of your property.</p>
@@ -706,7 +726,35 @@ M.S. Group is an integrated beautification works firm. Our services include 2D &
     </div>
     <!-- pre loader end -->
 
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.carousel-slide');
+        const totalSlides = slides.length;
 
+        // Show the first slide initially
+        slides[currentSlide].classList.add('active');
+
+        // Function to show the next slide
+        function showNextSlide() {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + 1) % totalSlides;
+            slides[currentSlide].classList.add('active');
+        }
+
+        // Function to show the previous slide
+        function showPrevSlide() {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+            slides[currentSlide].classList.add('active');
+        }
+
+        // Set up automatic sliding (change every 5 seconds)
+        setInterval(showNextSlide, 5000);
+
+        // Optional: Add controls
+        document.getElementById('nextSlide').addEventListener('click', showNextSlide);
+        document.getElementById('prevSlide').addEventListener('click', showPrevSlide);
+    </script>
     <!-- jquery js -->
     <script src="assets/js/plugins/jquery.min.js"></script>
     <!-- jquery ui -->

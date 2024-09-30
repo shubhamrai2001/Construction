@@ -106,7 +106,7 @@
                                                     <li><a href="service-2.html">Porta Cabin</a></li>
                                                     <li><a href="service-3.html">Marble Work</a></li>
                                                     <li><a href="service-4.html">Bronze Statues</a></li>
-                                                    <li><a href="service-5.html">Granden Refurbishment</a></li>  
+                                                    <li><a href="service-5.html">Garden Refurbishment</a></li>  
                                                     <li><a href="service-6.html">Designer Gates & Central Verges</a></li>
                                                         
                                                 </ul>
@@ -201,7 +201,7 @@
                             <li><a class="mobile-menu-link" href="service-2.html">Porta Cabin</a></li>
                             <li><a class="mobile-menu-link" href="service-3.html">Marble Work</a></li>
                             <li><a class="mobile-menu-link" href="service-4.html">Bronze Statues</a></li>
-                            <li><a class="mobile-menu-link" href="service-5.html">Granden Refurbishment</a></li>
+                            <li><a class="mobile-menu-link" href="service-5.html">Garden Refurbishment</a></li>
                             <li><a class="mobile-menu-link" href="service-6.html">Designer Gates & Central Verges</a>
                             </li>
 
@@ -251,16 +251,17 @@
 
     <!-- Bread-Crumb style two -->
     <!-- rts breadcrumba area start -->
-    <div class="rts-bread-crumb-area ptb--150 ptb_sm--100 bg-breadcrumb bg_image">
+    <div class="rts-bread-crumb-area ptb--150 ptb_sm--100 bg-breadcrumb bg_image"
+        style="background-image: url('./assets/images/service/service4.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <!-- bread crumb inner wrapper -->
                     <div class="breadcrumb-inner text-center">
-                        <h1 class="title">Bronze Statues</h1>
+                        <h1 class="title text-white">Bronze Statues</h1>
                         <div class="meta">
-                            <a href="index.html" class="prev">Home /</a>
-                            <a href="#" class="next">Bronze Statues</a>
+                            <a href="index.html" class="prev text-white">Home /</a>
+                            <a href="#" class="next text-white">Bronze Statues</a>
                         </div>
                     </div>
                     <!-- bread crumb inner wrapper end -->
@@ -314,9 +315,31 @@
                 <!-- rts- blog wizered end area -->
                 <div class="col-xl-8 col-md-12 col-sm-12 col-12 plr_sm--20"> <!-- service details left area start --> 
                     <div class="service-detials-step-1"> 
-                        <div class="thumbnail"> 
+                        <!-- <div class="thumbnail"> 
                             <img src="assets/images/service/service4.jpg" alt="bronze-statues-sculptures"> 
-                        </div> <h4 class="title">Bronze Statues/Sculptures</h4>
+                        </div> -->
+                        <div class="rts-bread-crumb-area ptb--150 ptb_sm--100 bg-breadcrumb position-relative">
+                            <!-- Carousel Wrapper -->
+                            <div class="background-carousel">
+                                <div class="carousel-slide"
+                                    style="background-image: url('./assets/images/gallery/Bronze/Bronze1.jpg');">
+                                </div>
+                                <div class="carousel-slide"
+                                    style="background-image: url('./assets/images/gallery/Bronze/Bronze2.jpg');">
+                                </div>
+                                <div class="carousel-slide"
+                                style="background-image: url('./assets/images/gallery/Bronze/Bronze3.jpg');">
+                            </div>
+
+                            </div>
+                                 <!-- Add Carousel Controls -->
+                        <button id="prevSlide" class="control left-control">❮</button>
+                        <button id="nextSlide" class="control right-control">❯</button>
+                   
+                        </div>
+
+                        
+                        <h4 class="title">Bronze Statues/Sculptures</h4>
                          <p class="disc"> Our bronze statues and sculptures add a touch of artistic elegance and timeless beauty to any space. We specialize in creating bespoke bronze artworks that can serve as focal points in gardens, public spaces, or private collections. </p>
                           <p class="disc"> From classical designs to contemporary pieces, our sculptures are crafted with precision and attention to detail. We use high-quality bronze materials and traditional techniques to ensure durability and a stunning finish. </p>
 
@@ -630,7 +653,35 @@
         </div>
     </div>
     <!-- pre loader end -->
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.carousel-slide');
+        const totalSlides = slides.length;
 
+        // Show the first slide initially
+        slides[currentSlide].classList.add('active');
+
+        // Function to show the next slide
+        function showNextSlide() {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + 1) % totalSlides;
+            slides[currentSlide].classList.add('active');
+        }
+
+        // Function to show the previous slide
+        function showPrevSlide() {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+            slides[currentSlide].classList.add('active');
+        }
+
+        // Set up automatic sliding (change every 5 seconds)
+        setInterval(showNextSlide, 5000);
+
+        // Optional: Add controls
+        document.getElementById('nextSlide').addEventListener('click', showNextSlide);
+        document.getElementById('prevSlide').addEventListener('click', showPrevSlide);
+    </script>
 
     <!-- jquery js -->
     <script src="assets/js/plugins/jquery.min.js"></script>

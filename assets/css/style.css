@@ -19872,9 +19872,9 @@ edit .quantity-edit button {
   }
 }
 
-.bg-breadcrumb {
+/* .bg-breadcrumb {
   background-image: url(../images/bg/breadcrumb.jpg);
-}
+} */
 
 .breadcrumb-inner .title {
   font-weight: 600;
@@ -33775,4 +33775,94 @@ form.Appointment-form select option {
   border: 1px solid #26282F;
   padding: 30px 20px;
   height: 100%;
+}
+
+/* //carsole Image */
+.background-carousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.carousel-slide.active {
+  opacity: 1;
+}
+
+/* Style the control buttons */
+.control {
+  position: absolute;
+  top: 50%;
+  /* Vertically center the buttons */
+  transform: translateY(-50%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  z-index: 2;
+  font-size: 24px;
+  outline: none;
+}
+
+.left-control {
+  right: 38rem;
+  color: #02c1bc;
+  /* Align the left button to the left side of the image */
+}
+
+.right-control {
+  left: 38rem;
+  color: #02c1bc;
+
+  /* Align the right button to the right side of the image */
+}
+
+/* Optional: Hover effect for the buttons */
+
+/* Media query for smaller screens (e.g., tablets and mobile devices) */
+@media (max-width: 1200px) {
+  .left-control {
+      right: 20rem;
+      /* Adjust positioning for medium screens */
+  }
+
+  .right-control {
+      left: 20rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .left-control {
+      right: 10rem;
+      /* Adjust positioning for smaller screens */
+  }
+
+  .right-control {
+      left: 10rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .left-control {
+      right: 15rem;
+      /* Position closer to the edges on very small screens */
+  }
+
+  .right-control {
+      left: 15rem;
+  }
 }
